@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2892470401867574860}
-  - component: {fileID: 72012892221535762}
+  - component: {fileID: 2604329382224552917}
   - component: {fileID: 307424579659659340}
   - component: {fileID: 4606393215684898736}
   m_Layer: 0
@@ -35,8 +35,8 @@ Transform:
   - {fileID: 6129307804778569351}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &72012892221535762
-BoxCollider2D:
+--- !u!70 &2604329382224552917
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -69,18 +69,9 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.25}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 0.5}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0, y: -11}
+  m_Size: {x: 24, y: 12}
+  m_Direction: 1
 --- !u!50 &307424579659659340
 Rigidbody2D:
   serializedVersion: 5
@@ -121,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 307424579659659340}
-  moveSpeed: 5
+  moveSpeed: 50
 --- !u!1 &8197439875447077454
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,13 +189,12 @@ SpriteRenderer:
   m_SortingLayerID: 1153495879
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a1a4ebabacb3ad4e82a7194070fdad4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 32, y: 32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

@@ -6,9 +6,23 @@ public class NpcBehaviour : MonoBehaviour
     [SerializeField] private bool talkOnSight;
     [SerializeField] private Vector2 moveDir;
     [SerializeField] private int moveSpeed;
+    [SerializeField] private float talkRadius;
+    [SerializeField] private LayerMask layerMask;
+    [SerializeField] private GameObject cutscene;
+    [SerializeField] private BoxCollider2D trigger;
 
     private GameObject target;
     private bool isWalking = false;
+
+    private Vector2 startPosition;
+
+    private void Start()
+    {
+        cutscene.SetActive(false);
+        startPosition = rb.position;
+        if (!talkOnSight) trigger.enabled = false;
+        else trigger.enabled = true;
+    }
 
     private void FixedUpdate()
     {
@@ -31,7 +45,14 @@ public class NpcBehaviour : MonoBehaviour
         if (isWalking && target != null)
         {
             rb.linearVelocity = moveDir.normalized * moveSpeed;
-            //if ()
+
+            if (Physics2D.OverlapCircle(transform.position, talkRadius, layerMask, -1, 1) != null)
+            {
+                cutscene.SetActive(true);
+                isWalking = false;
+                rb.position = startPosition;
+                trigger.enabled = false;
+            }
         }
     }
 }
