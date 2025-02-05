@@ -5,11 +5,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private int moveSpeed;
     private Vector2 moveDirection;
+    private bool active = true;
 
     private void GetInputs()
     {
-        moveDirection.x = Input.GetAxis("Horizontal");
-        moveDirection.y = Input.GetAxis("Vertical");
+        moveDirection.x = Input.GetAxisRaw("Horizontal");
+        moveDirection.y = Input.GetAxisRaw("Vertical");
 
         moveDirection = moveDirection.normalized;
     }
@@ -21,11 +22,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void DoMovement()
     {
-        rb.linearVelocity = moveDirection * moveSpeed;
+        if (active)
+        {
+            rb.linearVelocity = moveDirection * moveSpeed;
+        }
     }
 
     private void FixedUpdate()
     {
         DoMovement();
+    }
+
+    public void StopMovement()
+    {
+        rb.linearVelocity = Vector2.zero;
+        active = false;
     }
 }
