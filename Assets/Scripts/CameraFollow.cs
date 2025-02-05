@@ -7,8 +7,8 @@ namespace Cainos.PixelArtTopDown_Basic
     //let camera follow target
     public class CameraFollow : MonoBehaviour
     {
-        public Transform target;
-        public float lerpSpeed = 1.0f;
+        [SerializeField] private Transform target;
+        [SerializeField] private float lerpSpeed = 1.0f;
 
         private Vector3 offset;
 
@@ -21,7 +21,7 @@ namespace Cainos.PixelArtTopDown_Basic
             offset = transform.position - target.position;
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             if (target == null) return;
 
