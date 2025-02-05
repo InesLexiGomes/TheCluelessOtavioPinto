@@ -25,9 +25,9 @@ TagManager:
   - 
   - 
   - 
-  - Layer 1
-  - Layer 2
-  - Layer 3
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -41,35 +41,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< HEAD
   - name: Player Low Back
-    uniqueID: 2993728551
+    uniqueID: 869060151
     locked: 0
   - name: Object Low
-    uniqueID: 2233956375
+    uniqueID: 3578124059
     locked: 0
   - name: Player Low Front
-    uniqueID: 3447960531
+    uniqueID: 1153495879
     locked: 0
   - name: Player High Back
-    uniqueID: 977096039
+    uniqueID: 4017523029
     locked: 0
   - name: Object High
-    uniqueID: 3661269947
+    uniqueID: 648337191
     locked: 0
   - name: Player High Front
-    uniqueID: 3020634347
+    uniqueID: 1836606485
     locked: 0
   m_RenderingLayers:
   - Default
-=======
-  - name: Layer 1
-    uniqueID: 2425651459
-    locked: 0
-  - name: Layer 2
-    uniqueID: 4250941897
-    locked: 0
-  - name: Layer 3
-    uniqueID: 4189426099
-    locked: 0
->>>>>>> d8f621dcd509e142aba0a77f7164b182f07f3d39
