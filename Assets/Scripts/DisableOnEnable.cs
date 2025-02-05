@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DestroyOnEnable : MonoBehaviour
+public class DisableOnEnable : MonoBehaviour
 {
     private void OnEnable() {
         gameObject.SetActive(false);
