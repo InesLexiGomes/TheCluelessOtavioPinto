@@ -55,7 +55,7 @@ public class NpcBehaviour : MonoBehaviour
 
                 cutscene.SetActive(true);
                 isWalking = false;
-                rb.position = startPosition;
+                gameObject.transform.position = startPosition;
                 rb.linearVelocity = Vector2.zero;
                 trigger.enabled = false;
                 
