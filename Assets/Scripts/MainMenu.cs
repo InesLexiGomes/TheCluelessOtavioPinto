@@ -7,6 +7,19 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject credits;
     [SerializeField] private GameObject buttons;
 
+    private void Start()
+    {
+        credits.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            CloseCredits();
+        }
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene(mainScene);
