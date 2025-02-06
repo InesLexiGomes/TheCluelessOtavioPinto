@@ -17,20 +17,7 @@ public class SortByPosition : MonoBehaviour
     private void ChangeZAccordingToY()
     {
         Vector3 pos = transform.position;
-        pos.z = transform.position.y;
+        pos.z = transform.position.y/100;
         transform.position = pos;
-        /*Vector3 pos;
-        if (rb != null)
-        {
-            pos = rb.position;
-            pos.z = rb.position.y;
-            rb.position = pos;
-
-            Debug.Log($"Set rb.position = {pos}");
-        }
-        else
-        {
-           
-        }*/
     }
 }
