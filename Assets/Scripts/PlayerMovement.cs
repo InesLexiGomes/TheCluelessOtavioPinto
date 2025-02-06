@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator animator;
     [SerializeField] private int moveSpeed;
     private Vector2 moveDirection;
     private bool active = true;
@@ -20,6 +21,12 @@ public class PlayerMovement : MonoBehaviour
         GetInputs();
     }
 
+    private void FixedUpdate()
+    {
+        DoMovement();
+        MovementVisuals();
+    }
+
     private void DoMovement()
     {
         if (active)
@@ -28,9 +35,23 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    private void MovementVisuals()
     {
-        DoMovement();
+        ResetTriggers();
+        if (moveDirection == Vector2.zero) animator.SetTrigger("Idle");
+        else if (moveDirection.y > 0) animator.SetTrigger("Up");
+        else if (moveDirection.y < 0) animator.SetTrigger("Down");
+        else if (moveDirection.x > 0) animator.SetTrigger("Right");
+        else if (moveDirection.x < 0) animator.SetTrigger("Left");
+    }
+
+    private void ResetTriggers()
+    {
+        animator.ResetTrigger("Idle");
+        animator.ResetTrigger("Up");
+        animator.ResetTrigger("Down");
+        animator.ResetTrigger("Left");
+        animator.ResetTrigger("Right");
     }
 
     public void StopMovement()
