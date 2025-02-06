@@ -50,8 +50,9 @@ public class NpcBehaviour : MonoBehaviour
         {
             rb.linearVelocity = moveDir.normalized * moveSpeed;
 
-            if (Physics2D.OverlapCircle(transform.position, talkRadius, layerMask, -1, 1) != null)
+            if (Physics2D.OverlapCircle(transform.position, talkRadius, layerMask, -10000, 10000) != null)
             {
+
                 cutscene.SetActive(true);
                 isWalking = false;
                 rb.position = startPosition;

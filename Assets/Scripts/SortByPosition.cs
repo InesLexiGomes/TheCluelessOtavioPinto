@@ -17,7 +17,7 @@ public class SortByPosition : MonoBehaviour
     private void ChangeZAccordingToY()
     {
         Vector3 pos = transform.position;
-        pos.z = transform.position.y/100;
+        pos.z = transform.position.y/100 + 100;
         transform.position = pos;
     }
 }
