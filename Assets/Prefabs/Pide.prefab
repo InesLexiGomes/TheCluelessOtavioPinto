@@ -80,7 +80,7 @@ MonoBehaviour:
   talkOnSight: 1
   moveDir: {x: 0, y: -1}
   moveSpeed: 50
-  talkRadius: 30
+  talkRadius: 20
   layerMask:
     serializedVersion: 2
     m_Bits: 8

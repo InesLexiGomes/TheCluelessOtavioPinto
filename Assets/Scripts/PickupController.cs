@@ -13,7 +13,9 @@ public class PickupController : MonoBehaviour
         if(collision.GetComponent<PlayerMovement>() != null) {
             cutscene.SetActive(true);
             GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().PickupItem(this);
-            Destroy(gameObject);
+            collision.GetComponent<PlayerMovement>().StopMovement();
+            GetComponent<CircleCollider2D>().enabled = false;
+            GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 }
