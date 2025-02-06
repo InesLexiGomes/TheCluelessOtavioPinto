@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 namespace Cainos.PixelArtTopDown_Basic
@@ -14,8 +15,11 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private Vector3 targetPos;
 
+        private float startCameraPosZ;
+
         private void Start()
         {
+            startCameraPosZ = transform.position.z;
             if (target == null) return;
 
             offset = transform.position - target.position;
@@ -26,6 +30,7 @@ namespace Cainos.PixelArtTopDown_Basic
             if (target == null) return;
 
             targetPos = target.position + offset;
+            targetPos.z = startCameraPosZ;
             transform.position = Vector3.Lerp(transform.position, targetPos, lerpSpeed * Time.deltaTime);
         }
 

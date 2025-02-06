@@ -41,23 +41,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player Low Back
-    uniqueID: 869060151
-    locked: 0
-  - name: Object Low
-    uniqueID: 3578124059
-    locked: 0
-  - name: Player Low Front
-    uniqueID: 1153495879
-    locked: 0
-  - name: Player High Back
-    uniqueID: 4017523029
-    locked: 0
-  - name: Object High
-    uniqueID: 648337191
-    locked: 0
-  - name: Player High Front
-    uniqueID: 1836606485
+  - name: Sortable
+    uniqueID: 3607978121
     locked: 0
   m_RenderingLayers:
   - Default
