@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Object Cutscene
+  m_EditorClassIdentifier: 
+  links:
+  - guid: f9a694ab-3a8e-4c5e-9f90-52e2213296a7
+    targetGuid: e04ae0f1-17fd-4450-a408-995ac82f3342
+    portId: 0
+  - guid: e04ae0f1-17fd-4450-a408-995ac82f3342
+    targetGuid: a49094ed-dc71-4cfc-8759-25f8a616a92e
+    portId: 1
+  - guid: 8991086a-dc5e-4144-a439-247ea1ee3ab5
+    targetGuid: 06d0f822-f9ce-419c-8965-71c486ec4850
+    portId: 2
+  - guid: 06d0f822-f9ce-419c-8965-71c486ec4850
+    targetGuid: 1d5e9bae-e640-488b-a890-2cdb6259b869
+    portId: 3
+  - guid: a49094ed-dc71-4cfc-8759-25f8a616a92e
+    targetGuid: 8991086a-dc5e-4144-a439-247ea1ee3ab5
+    portId: 4
+  - guid: 1d5e9bae-e640-488b-a890-2cdb6259b869
+    targetGuid: 75ce289b-42b5-4c0c-a396-4c39060da510
+    portId: 5
+  nodes:
+  - guid: f9a694ab-3a8e-4c5e-9f90-52e2213296a7
+    characterSpr: {fileID: 21300000, guid: e89e94c938bf20549b956865c8ecab8d, type: 3}
+    characterName: Piedade Faria
+    dialogueText: "\xD3 Ot\xE1vio, amigo, n\xE3o nos arranjavas a\xED um espa\xE7inho
+      em \xD3bidos para a malta fazer a\xED uma festa?"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -20.8
+      y: -4.799999
+      width: 499.19998
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e04ae0f1-17fd-4450-a408-995ac82f3342
+    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+    characterName: "\xD3tavio Pinto"
+    dialogueText: "Capit\xE3o! Pois claro que sim, arranja-se sempre qualquer coisa!
+      Que tal a Casa da M\xFAsica?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 588.8
+      y: -4.799999
+      width: 499.2
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8991086a-dc5e-4144-a439-247ea1ee3ab5
+    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+    characterName: "\xD3tavio Pinto"
+    dialogueText: Sem problema...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1826.4
+      y: -4.799999
+      width: 499.20007
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 06d0f822-f9ce-419c-8965-71c486ec4850
+    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+    characterName: "\xD3tavio Pinto"
+    dialogueText: "Uau algumas coisas nesta lista s\xE3o uhhhh interessantes."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2424
+      y: -4.799999
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a49094ed-dc71-4cfc-8759-25f8a616a92e
+    characterSpr: {fileID: 21300000, guid: e89e94c938bf20549b956865c8ecab8d, type: 3}
+    characterName: Piedade Faria
+    dialogueText: "Excelente sugest\xE3o, meu caro. S\xF3 vou precisar que me arranjes
+      algumas coisas..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1208
+      y: -4.799999
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 75ce289b-42b5-4c0c-a396-4c39060da510
+    characterSpr: {fileID: 1208040086343421634, guid: 63c621945f9bbd14f9fe31720ffb842b,
+      type: 3}
+    characterName: "\xD3tavio Pinto"
+    dialogueText: "Sim senhor capit\xE3o"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3657.6
+      y: -4.799999
+      width: 499.1997
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1d5e9bae-e640-488b-a890-2cdb6259b869
+    characterSpr: {fileID: 21300000, guid: e89e94c938bf20549b956865c8ecab8d, type: 3}
+    characterName: Piedade Faria
+    dialogueText: "N\xE3o te preocupes Ot\xE1vio, \xE9 pra festa. V\xE1, e n\xE3o
+      demores muito que a malta j\xE1 a\xED vem!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3045.6
+      y: -4.799999
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

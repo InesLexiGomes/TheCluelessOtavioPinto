@@ -16,9 +16,13 @@ public class NpcBehaviour : MonoBehaviour
 
     private Vector2 startPosition;
 
+
+    private void Awake() {
+        cutscene.SetActive(false);
+    }
     private void Start()
     {
-        cutscene.SetActive(false);
+        
         startPosition = rb.position;
         if (!talkOnSight) trigger.enabled = false;
         else trigger.enabled = true;
@@ -51,7 +55,9 @@ public class NpcBehaviour : MonoBehaviour
                 cutscene.SetActive(true);
                 isWalking = false;
                 rb.position = startPosition;
+                rb.linearVelocity = Vector2.zero;
                 trigger.enabled = false;
+                
             }
         }
     }

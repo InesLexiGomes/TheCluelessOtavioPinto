@@ -38,4 +38,9 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         active = false;
     }
+
+    public void StartMovement()
+    {
+        active = true;
+    }
 }
