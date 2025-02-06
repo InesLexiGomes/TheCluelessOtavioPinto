@@ -972,14 +972,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.63529414}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 375910f00bc5ed64b8b7415a00664f88, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1773,11 +1773,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6657925698861937058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -713, y: 0}
+  m_SizeDelta: {x: 409, y: 489}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &402150856286814697
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1806,7 +1806,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+  m_Sprite: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2461,6 +2462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f03da92281128e04e8ab94772fee0328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 4931932322799196464}
 --- !u!1 &7701343813851366295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,7 +3046,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story: {fileID: 11400000, guid: e94b96543c4d6ac4a8ad740ff34334aa, type: 2}
-  storyCanvas: {fileID: 4629984376526575828}
   characterNameTxt: {fileID: 1490869436613630758}
   dialogueTxt: {fileID: 2046767498746954151}
   characterImg: {fileID: 6444758725435906325}
