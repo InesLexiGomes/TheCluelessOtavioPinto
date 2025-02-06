@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: 1_TheRequest
+  m_EditorClassIdentifier: 
+  links:
+  - guid: b2780d84-12ce-4ff8-8bed-eb7efd2733ed
+    targetGuid: 9b2f55d8-5e1b-4a56-ba7c-8796553e0b7e
+    portId: 0
+  - guid: 9b2f55d8-5e1b-4a56-ba7c-8796553e0b7e
+    targetGuid: 8ca05d8a-e468-45fd-987f-6d25a5dd2d1c
+    portId: 1
+  - guid: 8ca05d8a-e468-45fd-987f-6d25a5dd2d1c
+    targetGuid: 6b14a906-182e-4e85-8f8c-09cccdc390d2
+    portId: 2
+  nodes:
+  - guid: b2780d84-12ce-4ff8-8bed-eb7efd2733ed
+    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
+      type: 3}
+    characterName: Voz Familiar
+    dialogueText: "\xD3, Ot\xE1vio Pinto!! Venha c\xE1!"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63.2
+      y: -28.8
+      width: 499.2
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9b2f55d8-5e1b-4a56-ba7c-8796553e0b7e
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Cb. Ot\xE1vio Pinto"
+    dialogueText: "Sim, Capit\xE3o Faria, o que se passa?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 596
+      y: -14.4
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6b14a906-182e-4e85-8f8c-09cccdc390d2
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Cb. Ot\xE1vio Pinto"
+    dialogueText: "Epa, sim, senhor! Vou j\xE1 tratar disso."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1708
+      y: 7.199999
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ca05d8a-e468-45fd-987f-6d25a5dd2d1c
+    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
+      type: 3}
+    characterName: Cap. Piedade Faria
+    dialogueText: "\xD3 Pinto, ali na zona de \xD3bidos n\xE3o se arranja uma casa
+      para se fazer uma par\xF3dia?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1170.4
+      y: 21.6
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
