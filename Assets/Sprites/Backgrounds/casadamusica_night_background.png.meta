@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      casadamusica_night_background_0: -904893699419314718
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

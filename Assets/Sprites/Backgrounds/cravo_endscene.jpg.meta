@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cravo_endscene_0: 2799287058703275364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
