@@ -12,5 +12,181 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: Meet_Alexandra
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: f13f09e9-313c-4b98-b919-4e78eb65f8f5
+    targetGuid: 18f6fb1f-c19a-4cfd-afc5-b181246877f8
+    portId: 0
+  - guid: 18f6fb1f-c19a-4cfd-afc5-b181246877f8
+    targetGuid: da63c3ae-ba1d-4e4b-8b60-cbafdda2f558
+    portId: 1
+  - guid: da63c3ae-ba1d-4e4b-8b60-cbafdda2f558
+    targetGuid: d5a8cb65-5d50-4b72-99f9-56896bae93a6
+    portId: 2
+  - guid: d5a8cb65-5d50-4b72-99f9-56896bae93a6
+    targetGuid: af4fe327-c6c5-47c2-b278-32cda2153ce2
+    portId: 3
+  - guid: af4fe327-c6c5-47c2-b278-32cda2153ce2
+    targetGuid: 8aadc5b0-3bc7-4068-9070-3d46276b9cd6
+    portId: 4
+  - guid: 8aadc5b0-3bc7-4068-9070-3d46276b9cd6
+    targetGuid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+    portId: 5
+  - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+    targetGuid: d3230c47-77ed-4206-a06e-fa84af52a338
+    portId: 6
+  nodes:
+  - guid: f13f09e9-313c-4b98-b919-4e78eb65f8f5
+    characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
+      type: 3}
+    characterName: Voz Familiar
+    dialogueText: "Ah, olhe s\xF3 quem est\xE1 aqui! Meu grande amigo, Ot\xE1vio!"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 112
+      y: 96.799995
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 18f6fb1f-c19a-4cfd-afc5-b181246877f8
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Alexandra! H\xE1 quanto tempo! Est\xE1s bem?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 679.2
+      y: 157.6
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: da63c3ae-ba1d-4e4b-8b60-cbafdda2f558
+    characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
+      type: 3}
+    characterName: Alexandra
+    dialogueText: Sim, sim! E tu? Como tens estado?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1289.6
+      y: 73.6
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d5a8cb65-5d50-4b72-99f9-56896bae93a6
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: Vou muito bem, obrigado. Muito a se fazer. Inclusive, podias me
+      ajudar?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1850.4
+      y: 157.6
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: af4fe327-c6c5-47c2-b278-32cda2153ce2
+    characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
+      type: 3}
+    characterName: Alexandra
+    dialogueText: "Claro! Diz-me s\xF3 do que precisas."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2408.8
+      y: 204.8
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8aadc5b0-3bc7-4068-9070-3d46276b9cd6
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: Preciso achar algumas cassetes do Paulo de Carvalho e do Zeca Afonso.
+      Tens alguma ideia?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2974.4
+      y: 141.6
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+    characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
+      type: 3}
+    characterName: Alexandra
+    dialogueText: "Sim, esse tipo de coisa fica no armaz\xE9m aqui na rua de cima.
+      Se partires da Casa da M\xFAsica, \xE9 a \xFAltima casa."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3521.6
+      y: 232
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d3230c47-77ed-4206-a06e-fa84af52a338
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Obrigado, Alexandra! At\xE9 \xE0 pr\xF3xima."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4079.2
+      y: 154.40001
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

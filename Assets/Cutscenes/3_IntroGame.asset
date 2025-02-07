@@ -12,5 +12,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: 3_IntroGame
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: 5a882778-2e1c-45d3-b1dd-84c1e3cbd5eb
+    targetGuid: e8ab99a4-49ba-4ff7-a25f-35006e39da5f
+    portId: 0
+  nodes:
+  - guid: 5a882778-2e1c-45d3-b1dd-84c1e3cbd5eb
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Olha s\xF3, por acaso a Casa da M\xFAsica estava dispon\xEDvel
+      para a par\xF3dia! Aproveitei para contactar logo o Capit\xE3o Piedade Faria.
+      J\xE1 deve estar a caminho tamb\xE9m."
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 133.6
+      y: 70.4
+      width: 499.19998
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e8ab99a4-49ba-4ff7-a25f-35006e39da5f
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Vou j\xE1 organizar o espa\xE7o enquanto o espero."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 689.6
+      y: 70.4
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

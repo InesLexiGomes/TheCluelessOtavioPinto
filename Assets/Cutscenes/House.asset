@@ -12,5 +12,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: House
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: e37a14f8-69e8-42c8-9e6a-d111110eca75
+    targetGuid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
+    portId: 0
+  - guid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
+    targetGuid: 034a638a-3c23-4cc6-88cb-746a21772891
+    portId: 1
+  nodes:
+  - guid: e37a14f8-69e8-42c8-9e6a-d111110eca75
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Certo, \"ao p\xE9 da porta\" ela disse. Por que raios um caderno
+      de anota\xE7\xF5es estaria ao p\xE9 da porta?"
+    backgroundSpr: {fileID: 21300000, guid: 3db0490bb2e85b84795379f63772b6fe, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 238.4
+      y: 110.4
+      width: 499.19998
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: " O qu\xEA? Isso t\xE1 mais para debaixo do tapete, literalmente."
+    backgroundSpr: {fileID: 21300000, guid: 3db0490bb2e85b84795379f63772b6fe, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 797.6
+      y: 164.8
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 034a638a-3c23-4cc6-88cb-746a21772891
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Ot\xE1vio encontra o caderno."
+    backgroundSpr: {fileID: 21300000, guid: 8297605f7a9dd02499f1789979ef15bb, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1388
+      y: 122.4
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

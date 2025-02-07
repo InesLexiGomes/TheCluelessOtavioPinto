@@ -28,7 +28,7 @@ MonoBehaviour:
       type: 3}
     characterName: Voz Familiar
     dialogueText: "\xD3, Ot\xE1vio Pinto!! Venha c\xE1!"
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
     startNode: 1
     endNode: 0
     choices: 1
@@ -47,7 +47,7 @@ MonoBehaviour:
       type: 3}
     characterName: "Cb. Ot\xE1vio Pinto"
     dialogueText: "Sim, Capit\xE3o Faria, o que se passa?"
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
       type: 3}
     characterName: "Cb. Ot\xE1vio Pinto"
     dialogueText: "Epa, sim, senhor! Vou j\xE1 tratar disso."
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
     startNode: 0
     endNode: 1
     choices: 1
@@ -86,7 +86,7 @@ MonoBehaviour:
     characterName: Cap. Piedade Faria
     dialogueText: "\xD3 Pinto, ali na zona de \xD3bidos n\xE3o se arranja uma casa
       para se fazer uma par\xF3dia?"
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
     startNode: 0
     endNode: 0
     choices: 1

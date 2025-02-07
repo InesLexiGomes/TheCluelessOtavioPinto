@@ -12,5 +12,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: 4_TheList
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: e151dbc3-1ae2-4a5b-9845-e865bc7b7b10
+    targetGuid: c14f3c55-5387-4ec1-9b23-c7eaf34e9314
+    portId: 0
+  - guid: c14f3c55-5387-4ec1-9b23-c7eaf34e9314
+    targetGuid: 507cd4f2-53b2-4d8f-b87f-544e75a24df8
+    portId: 1
+  - guid: 507cd4f2-53b2-4d8f-b87f-544e75a24df8
+    targetGuid: dfd391ed-0a85-4a8f-b77b-5d4dfb4a34e7
+    portId: 2
+  nodes:
+  - guid: e151dbc3-1ae2-4a5b-9845-e865bc7b7b10
+    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
+      type: 3}
+    characterName: Cap. Piedade Faria
+    dialogueText: "Cabo Pinto, est\xE1 ai?"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 44.8
+      y: -53.6
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c14f3c55-5387-4ec1-9b23-c7eaf34e9314
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Cb. Ot\xE1vio Pinto"
+    dialogueText: "Sim, capit\xE3o! E ent\xE3o?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 599.2
+      y: -4
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 507cd4f2-53b2-4d8f-b87f-544e75a24df8
+    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
+      type: 3}
+    characterName: Cap. Piedade Faria
+    dialogueText: "Este local \xE9 perfeito! Olha, para j\xE1, temos esta lista de
+      itens para a par\xF3dia. Podias arranj\xE1-los?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1134.4
+      y: -131.2
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: dfd391ed-0a85-4a8f-b77b-5d4dfb4a34e7
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Cb. Ot\xE1vio Pinto"
+    dialogueText: "Claro! Fa\xE7o tudo num instantinho."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1695.2
+      y: -212.79999
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

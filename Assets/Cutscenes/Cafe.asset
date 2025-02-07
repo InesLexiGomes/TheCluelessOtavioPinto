@@ -12,5 +12,112 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: Cafe
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: dca2ec34-5f1e-475c-bfa9-8c8199dc99ec
+    targetGuid: 498d7de0-85c4-4f5b-9cd4-2697c990e996
+    portId: 0
+  - guid: 498d7de0-85c4-4f5b-9cd4-2697c990e996
+    targetGuid: 0c1583c9-4955-4745-814f-cc1a9a2861aa
+    portId: 1
+  - guid: 0c1583c9-4955-4745-814f-cc1a9a2861aa
+    targetGuid: a9d91d36-6694-4766-820c-14b43742ea45
+    portId: 2
+  - guid: a9d91d36-6694-4766-820c-14b43742ea45
+    targetGuid: 3ce6e2d5-ebde-4d5b-be2a-9ff0e4c6613e
+    portId: 3
+  nodes:
+  - guid: dca2ec34-5f1e-475c-bfa9-8c8199dc99ec
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Ol\xE1, \xE9 aqui que eu acho um r\xE1dio cassete antigo?"
+    backgroundSpr: {fileID: 21300000, guid: b9735a3450668db499241af3ed658fd5, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 172
+      y: 14.4
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 498d7de0-85c4-4f5b-9cd4-2697c990e996
+    characterSpr: {fileID: 8425973999580040789, guid: 688e0170979933b49a8abd1a129e7b9d,
+      type: 3}
+    characterName: Madalena
+    dialogueText: "Ol\xE1, bem vindo! Por acaso sim, como sabes?"
+    backgroundSpr: {fileID: 21300000, guid: b9735a3450668db499241af3ed658fd5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 714.4
+      y: 47.199997
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0c1583c9-4955-4745-814f-cc1a9a2861aa
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: Ouvi um jovem rapaz a queixar-se de uma "velharia *risos*
+    backgroundSpr: {fileID: 21300000, guid: b9735a3450668db499241af3ed658fd5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1280.8
+      y: -30.4
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a9d91d36-6694-4766-820c-14b43742ea45
+    characterSpr: {fileID: 8425973999580040789, guid: 688e0170979933b49a8abd1a129e7b9d,
+      type: 3}
+    characterName: Madalena
+    dialogueText: "Ah, \xE9 o meu irm\xE3o, Tom\xE1s. De qualquer modo, podes levar
+      este r\xE1dio contigo."
+    backgroundSpr: {fileID: 21300000, guid: b9735a3450668db499241af3ed658fd5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1836.8
+      y: 4.800001
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3ce6e2d5-ebde-4d5b-be2a-9ff0e4c6613e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "*Ot\xE1vio encontra o r\xE1dio cassete.*"
+    backgroundSpr: {fileID: 21300000, guid: f81b57e8ae917be4a8d905730d860c1a, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2422.4
+      y: -8
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

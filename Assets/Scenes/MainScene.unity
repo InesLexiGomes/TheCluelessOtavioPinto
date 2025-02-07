@@ -38523,6 +38523,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3994783355422682960, guid: 1e791984d0f760b4d8333b903d1ab065,
         type: 3}
+      propertyPath: story
+      value: 
+      objectReference: {fileID: 11400000, guid: b03e43d89866b2b4280980f1679979c4,
+        type: 2}
+    - target: {fileID: 3994783355422682960, guid: 1e791984d0f760b4d8333b903d1ab065,
+        type: 3}
       propertyPath: mainMenu
       value: 
       objectReference: {fileID: 0}
@@ -41127,6 +41133,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3994783355422682960, guid: 1e791984d0f760b4d8333b903d1ab065,
         type: 3}
+      propertyPath: story
+      value: 
+      objectReference: {fileID: 11400000, guid: 0c5b88bd38cdb74438aceb847102a955,
+        type: 2}
+    - target: {fileID: 3994783355422682960, guid: 1e791984d0f760b4d8333b903d1ab065,
+        type: 3}
       propertyPath: mainMenu
       value: 
       objectReference: {fileID: 0}
@@ -41308,6 +41320,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Tom\xE1s"
       objectReference: {fileID: 0}
+    - target: {fileID: 3994783355422682960, guid: 1e791984d0f760b4d8333b903d1ab065,
+        type: 3}
+      propertyPath: story
+      value: 
+      objectReference: {fileID: 11400000, guid: b6e901863ef72c044ae38749de13528a,
+        type: 2}
     - target: {fileID: 3994783355422682960, guid: 1e791984d0f760b4d8333b903d1ab065,
         type: 3}
       propertyPath: mainMenu
@@ -70138,6 +70156,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 795920698}
     m_Modifications:
+    - target: {fileID: 3755081471304630725, guid: 8cdd53b8ad0a6944093e82370c79902f,
+        type: 3}
+      propertyPath: story
+      value: 
+      objectReference: {fileID: 11400000, guid: 4f1a6df10f67e0f4e94fdfac9b5302f4,
+        type: 2}
     - target: {fileID: 3951781918153027793, guid: 8cdd53b8ad0a6944093e82370c79902f,
         type: 3}
       propertyPath: m_Name

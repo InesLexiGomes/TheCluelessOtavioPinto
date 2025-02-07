@@ -12,5 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: AllItems
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: 04ae86e2-697e-4d2c-a15e-decc65d4e8de
+    targetGuid: a35518a2-fb98-409e-889b-f599875a5bbf
+    portId: 0
+  nodes:
+  - guid: 04ae86e2-697e-4d2c-a15e-decc65d4e8de
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: Certo, agora que tenho tudo o que foi pedido.
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 208
+      y: 34.4
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a35518a2-fb98-409e-889b-f599875a5bbf
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Vou levar j\xE1 para a Casa da M\xFAsica e preparar esta par\xF3dia."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 780.8
+      y: 48
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

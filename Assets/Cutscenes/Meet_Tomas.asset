@@ -12,5 +12,160 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: Meet_Tomas
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: cfed15e8-73b8-486e-bb84-7f99b7724db5
+    targetGuid: 7b2dbfba-ab41-42f3-8389-dd693735723a
+    portId: 0
+  - guid: 7b2dbfba-ab41-42f3-8389-dd693735723a
+    targetGuid: 985bff0d-6229-4746-bb96-76e5d591c849
+    portId: 1
+  - guid: 985bff0d-6229-4746-bb96-76e5d591c849
+    targetGuid: 312a1ac7-c2ac-4267-bf48-5d6a0b4150d7
+    portId: 2
+  - guid: 312a1ac7-c2ac-4267-bf48-5d6a0b4150d7
+    targetGuid: d0ed3d74-2ed6-4594-ab80-c42b2c720d85
+    portId: 3
+  - guid: d0ed3d74-2ed6-4594-ab80-c42b2c720d85
+    targetGuid: f30878e5-8a6c-4bda-9f76-99477e35bee1
+    portId: 4
+  - guid: f30878e5-8a6c-4bda-9f76-99477e35bee1
+    targetGuid: 658f76d6-10ce-49fb-9095-90d897e747f6
+    portId: 5
+  nodes:
+  - guid: cfed15e8-73b8-486e-bb84-7f99b7724db5
+    characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
+      type: 3}
+    characterName: Rapaz Irritado
+    dialogueText: "J\xE1 estou farto desta velharia a ocupar espa\xE7o do caf\xE9.
+      A Madalena t\xE1 pra mandar pro lixo \xE0 anos e nunca o faz."
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 144.8
+      y: 90.4
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7b2dbfba-ab41-42f3-8389-dd693735723a
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Olha, com licen\xE7a, do que se trata essa velharia??"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 680.8
+      y: 139.20001
+      width: 499.2
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 985bff0d-6229-4746-bb96-76e5d591c849
+    characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
+      type: 3}
+    characterName: Rapaz Irritado
+    dialogueText: "Um r\xE1dio cassete. Olha, se estiveres interessado, podes ficar
+      com ele. Quero-me ver livre disso."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1221.6
+      y: 88
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 312a1ac7-c2ac-4267-bf48-5d6a0b4150d7
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Com certeza, estava justamente \xE0 procura de um! E onde fica
+      o caf\xE9?\r"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1762.4
+      y: 51.199997
+      width: 499.20007
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d0ed3d74-2ed6-4594-ab80-c42b2c720d85
+    characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
+      type: 3}
+    characterName: Rapaz Irritado
+    dialogueText: "Fica na esquina da travessa perto da muralha. Se fores pela rua
+      do meio, \xE9 s\xF3 descer a travessa."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2336
+      y: 0.80000114
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f30878e5-8a6c-4bda-9f76-99477e35bee1
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: Muito bem, obrigado...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2873.6
+      y: 41.6
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 658f76d6-10ce-49fb-9095-90d897e747f6
+    characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
+      type: 3}
+    characterName: "Tom\xE1s"
+    dialogueText: "Tom\xE1s."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3417.6
+      y: 0.80000114
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

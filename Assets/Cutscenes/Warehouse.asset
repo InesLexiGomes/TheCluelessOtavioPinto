@@ -12,5 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: Warehouse
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: df43fcb9-e38d-4da1-a0ba-78281e3eab6e
+    targetGuid: c011349c-4225-4091-ac7b-67e417407e55
+    portId: 0
+  nodes:
+  - guid: df43fcb9-e38d-4da1-a0ba-78281e3eab6e
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Deixa me ver s\xF3 se encontro estas cassetes no meio da tralha
+      toda."
+    backgroundSpr: {fileID: 21300000, guid: 7793a6219badeb7438fd8c965325dd58, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 127.2
+      y: 32.800003
+      width: 499.2
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c011349c-4225-4091-ac7b-67e417407e55
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "*Ot\xE1vio encontra as cassetes.*"
+    backgroundSpr: {fileID: 21300000, guid: 86a62342028ddb04aa54a596e71e591d, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 722.4
+      y: 54.4
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

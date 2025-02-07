@@ -12,5 +12,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: New Story
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: 8be3b216-a1cc-4eae-bdf8-9479916e9b17
+    targetGuid: f9478e8c-7ddf-4a10-8238-a6da5ba5a74f
+    portId: 0
+  - guid: f9478e8c-7ddf-4a10-8238-a6da5ba5a74f
+    targetGuid: 120592a1-862e-4a1f-a934-9de66725cd74
+    portId: 1
+  nodes:
+  - guid: f9478e8c-7ddf-4a10-8238-a6da5ba5a74f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 344
+      y: 2.3999996
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 120592a1-862e-4a1f-a934-9de66725cd74
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1124
+      y: 158.40001
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8be3b216-a1cc-4eae-bdf8-9479916e9b17
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -270.4
+      y: 140
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

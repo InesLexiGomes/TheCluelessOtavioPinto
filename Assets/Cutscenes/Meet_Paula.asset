@@ -12,5 +12,115 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: Meet_Paula
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: b7c0278a-913e-4931-832a-8717d6527554
+    targetGuid: db27bc7a-39b3-42de-8f38-7b469170b17b
+    portId: 0
+  - guid: db27bc7a-39b3-42de-8f38-7b469170b17b
+    targetGuid: 8bf3844a-9476-407b-a961-2a3bff55cebb
+    portId: 1
+  - guid: 8bf3844a-9476-407b-a961-2a3bff55cebb
+    targetGuid: 5574b1f0-7ebe-4208-9bf1-19d104487fcb
+    portId: 2
+  - guid: 5574b1f0-7ebe-4208-9bf1-19d104487fcb
+    targetGuid: 842de3c7-e775-48ed-b92c-e16f357a22b8
+    portId: 3
+  nodes:
+  - guid: b7c0278a-913e-4931-832a-8717d6527554
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Ol\xE1, como est\xE1s? Por acaso saberia dizer onde posso encontrar
+      um caderno de anota\xE7\xF5es?"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 320.8
+      y: 91.2
+      width: 499.2
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: db27bc7a-39b3-42de-8f38-7b469170b17b
+    characterSpr: {fileID: 8904592306529736238, guid: 87e1098ff7ea00249b2eda313f51014d,
+      type: 3}
+    characterName: Rapariga
+    dialogueText: "Al\xF4, ando bem, e tu? Em minha casa, ao fim da rua central,
+      h\xE1 alguns cadernos com anota\xE7\xF5es ao p\xE9 da porta."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 884
+      y: 140.8
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8bf3844a-9476-407b-a961-2a3bff55cebb
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Ao p\xE9 da porta? N\xE3o percebo o porqu\xEA..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1440
+      y: 94.4
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5574b1f0-7ebe-4208-9bf1-19d104487fcb
+    characterSpr: {fileID: 8904592306529736238, guid: 87e1098ff7ea00249b2eda313f51014d,
+      type: 3}
+    characterName: Paula
+    dialogueText: "Sim, ao p\xE9 da porta. Ao chegares l\xE1, vai entender. Ali\xE1s,sou
+      a Paula. Como se chama?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2013.6
+      y: 148.8
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 842de3c7-e775-48ed-b92c-e16f357a22b8
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Sou o Ot\xE1vio. Hmm, obrigado pela ajuda, Paula."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2618.4
+      y: 92.799995
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
