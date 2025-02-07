@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         }
 
         if (itemsLeft == 0) {
-            itemList.SetActive(false);
+            //itemList.SetActive(false);
             finale.SetActive(true);
         }
     }
