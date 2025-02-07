@@ -42294,11 +42294,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 852964651902854665, guid: 3b1a48c43c54e454c9cd477d5da1db42,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2892470401867574860, guid: 3b1a48c43c54e454c9cd477d5da1db42,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42349,34 +42344,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4606393215684898736, guid: 3b1a48c43c54e454c9cd477d5da1db42,
-        type: 3}
-      propertyPath: bounceFactor
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4606393215684898736, guid: 3b1a48c43c54e454c9cd477d5da1db42,
-        type: 3}
-      propertyPath: playerSprite
-      value: 
-      objectReference: {fileID: 1301747584}
     - target: {fileID: 6887873843782682123, guid: 3b1a48c43c54e454c9cd477d5da1db42,
         type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887873843782682123, guid: 3b1a48c43c54e454c9cd477d5da1db42,
-        type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887873843782682123, guid: 3b1a48c43c54e454c9cd477d5da1db42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887873843782682123, guid: 3b1a48c43c54e454c9cd477d5da1db42,
-        type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -42387,12 +42357,6 @@ PrefabInstance:
 --- !u!4 &1301747583 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2892470401867574860, guid: 3b1a48c43c54e454c9cd477d5da1db42,
-    type: 3}
-  m_PrefabInstance: {fileID: 1301747582}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &1301747584 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 4517583517242918036, guid: 3b1a48c43c54e454c9cd477d5da1db42,
     type: 3}
   m_PrefabInstance: {fileID: 1301747582}
   m_PrefabAsset: {fileID: 0}

@@ -4,6 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
+    [SerializeField] private AudioSource audioSource;
     [SerializeField] private int moveSpeed;
     private Vector2 moveDirection;
     private bool active = true;
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         DoMovement();
         MovementVisuals();
+        FootStepNoise();
     }
 
     private void DoMovement()
@@ -63,5 +65,17 @@ public class PlayerMovement : MonoBehaviour
     public void StartMovement()
     {
         active = true;
+    }
+
+    private void FootStepNoise()
+    {
+        if (!audioSource.isPlaying && moveDirection != Vector2.zero)
+        {
+            audioSource.Play();
+        }
+        else if (moveDirection == Vector2.zero)
+        {
+            audioSource.Stop();
+        }
     }
 }
