@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 726274518486176949}
   - component: {fileID: 3968655398575057087}
   - component: {fileID: 2940621076535935107}
+  - component: {fileID: 8841209675413843922}
   m_Layer: 0
   m_Name: Pide
   m_TagString: Untagged
@@ -98,6 +99,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c15c9994c00f3ba4b87164b133ace4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &8841209675413843922
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626917188586979075}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ce6333baeb8488f4197f5caea0d8fab7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4662929188135801619
 GameObject:
   m_ObjectHideFlags: 0
