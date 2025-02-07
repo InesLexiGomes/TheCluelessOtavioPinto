@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      casadamusica_background_0: 6652101469117272969
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6dcad19d2b841ee459fffe9b242380c5
+guid: 7953ca49a6057b0418a2fe3a14be5dea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6105319182862654781
-    second: street_background_0
+      213: 3916094904177040946
+    second: check markpng_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: street_background_0
+      name: check markpng_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1050
-        height: 702
+        x: 12
+        y: 12
+        width: 40
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c2e711fc8c854ba0800000000000000
-      internalID: -6105319182862654781
+      spriteID: 23e90362193c85630800000000000000
+      internalID: 3916094904177040946
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      street_background_0: -6105319182862654781
+      check markpng_0: 3916094904177040946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

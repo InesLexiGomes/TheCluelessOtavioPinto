@@ -27,7 +27,7 @@ MonoBehaviour:
     characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
       type: 3}
     characterName: Voz Familiar
-    dialogueText: "\xD3, Ot\xE1vio Pinto!! Venha c\xE1!"
+    dialogueText: "\xD3, Ot\xE1vio Pinto!! Vem c\xE1!"
     backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
     startNode: 1
     endNode: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Cb. Ot\xE1vio Pinto"
-    dialogueText: "Sim, Capit\xE3o Faria, o que se passa?"
+    dialogueText: "Sim, Capit\xE3o Faria! O que se passa?"
     backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
     startNode: 0
     endNode: 0
@@ -61,31 +61,12 @@ MonoBehaviour:
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 6b14a906-182e-4e85-8f8c-09cccdc390d2
-    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
-      type: 3}
-    characterName: "Cb. Ot\xE1vio Pinto"
-    dialogueText: "Epa, sim, senhor! Vou j\xE1 tratar disso."
-    backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1708
-      y: 7.199999
-      width: 499.19995
-      height: 303.19998
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 8ca05d8a-e468-45fd-987f-6d25a5dd2d1c
     characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
       type: 3}
     characterName: Cap. Piedade Faria
-    dialogueText: "\xD3 Pinto, ali na zona de \xD3bidos n\xE3o se arranja uma casa
-      para se fazer uma par\xF3dia?"
+    dialogueText: "\xD3 Pinto, diz-me l\xE1: consegues arranjar um s\xEDtio ali na
+      zona de \xD3bidos para o pessoal fazer uma par\xF3dia?"
     backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
     startNode: 0
     endNode: 0
@@ -98,5 +79,24 @@ MonoBehaviour:
       y: 21.6
       width: 499.19995
       height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6b14a906-182e-4e85-8f8c-09cccdc390d2
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Cb. Ot\xE1vio Pinto"
+    dialogueText: "Ep\xE1 penso que consigo, sim senhor! Vou j\xE1 tratar disso."
+    backgroundSpr: {fileID: 21300000, guid: 8a6f6bae59232d848800dfefde9e5efa, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1708
+      y: 7.199999
+      width: 499.19995
+      height: 303.19998
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}

@@ -30,8 +30,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Ol\xE1, como est\xE1s? Por acaso saberia dizer onde posso encontrar
-      um caderno de anota\xE7\xF5es?"
+    dialogueText: "Ol\xE1, como est\xE1? Por acaso saberia dizer onde posso encontrar
+      um caderno de desenhos que foi deixado para um Ot\xE1vio Pinto?"
     backgroundSpr: {fileID: -6105319182862654781, guid: 6dcad19d2b841ee459fffe9b242380c5,
       type: 3}
     startNode: 1
@@ -51,8 +51,9 @@ MonoBehaviour:
     characterSpr: {fileID: 8904592306529736238, guid: 87e1098ff7ea00249b2eda313f51014d,
       type: 3}
     characterName: Rapariga
-    dialogueText: "Al\xF4, ando bem, e tu? Em minha casa, ao fim da rua central,
-      h\xE1 alguns cadernos com anota\xE7\xF5es ao p\xE9 da porta."
+    dialogueText: "Bom dia, tudo bem comigo. Se o senhor \xE9 o Ot\xE1vio, pode ir
+      buscar o caderno \xE0 minha casa, no fim da rua central. H\xE1 de estar ao
+      p\xE9 da porta, procure um bocadinho."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -71,7 +72,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Ao p\xE9 da porta? N\xE3o percebo o porqu\xEA..."
+    dialogueText: "Ao p\xE9 da porta? Um bocado estranho, n\xE3o?"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -90,8 +91,8 @@ MonoBehaviour:
     characterSpr: {fileID: 8904592306529736238, guid: 87e1098ff7ea00249b2eda313f51014d,
       type: 3}
     characterName: Paula
-    dialogueText: "Sim, ao p\xE9 da porta. Ao chegares l\xE1, vai entender. Ali\xE1s,sou
-      a Paula. Como se chama?"
+    dialogueText: "Sim, ao p\xE9 da porta. Ao chegares l\xE1, vai entender. J\xE1
+      agora, sou a Paula, se te perguntarem."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -110,7 +111,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Sou o Ot\xE1vio. Hmm, obrigado pela ajuda, Paula."
+    dialogueText: Hmm, nesse caso obrigado pela ajuda, Paula.
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1

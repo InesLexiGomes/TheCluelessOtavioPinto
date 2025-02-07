@@ -31,35 +31,21 @@ MonoBehaviour:
   - guid: 8aadc5b0-3bc7-4068-9070-3d46276b9cd6
     targetGuid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
     portId: 5
-  - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+  - guid: f6631ca2-b56c-4d26-9489-d62efdbf958c
     targetGuid: d3230c47-77ed-4206-a06e-fa84af52a338
     portId: 6
+  - guid: dd882251-36f9-48ea-a7aa-51d30522c5e0
+    targetGuid: f6631ca2-b56c-4d26-9489-d62efdbf958c
+    portId: 7
+  - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+    targetGuid: dd882251-36f9-48ea-a7aa-51d30522c5e0
+    portId: 8
   nodes:
-  - guid: f13f09e9-313c-4b98-b919-4e78eb65f8f5
-    characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
-      type: 3}
-    characterName: Voz Familiar
-    dialogueText: "Ah, olhe s\xF3 quem est\xE1 aqui! Meu grande amigo, Ot\xE1vio!"
-    backgroundSpr: {fileID: 9065089516622626416, guid: 86e81b6d750ee2549818bfda13bab743,
-      type: 3}
-    startNode: 1
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 112
-      y: 96.799995
-      width: 499.2
-      height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 18f6fb1f-c19a-4cfd-afc5-b181246877f8
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Alexandra! H\xE1 quanto tempo! Est\xE1s bem?"
+    dialogueText: "Alexandra! H\xE1 quanto tempo! Tudo bem contigo, mo\xE7a?"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -97,8 +83,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: Vou muito bem, obrigado. Muito a se fazer. Inclusive, podias me
-      ajudar?
+    dialogueText: "Vou muito bem, obrigado. Sempre ocupado, sabes como \xE9. Olha
+      j\xE1 que falo disso, podias-me ajudar?"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -117,7 +103,7 @@ MonoBehaviour:
     characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
       type: 3}
     characterName: Alexandra
-    dialogueText: "Claro! Diz-me s\xF3 do que precisas."
+    dialogueText: "Claro! Diz-me l\xE1 do que precisas."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -136,8 +122,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: Preciso achar algumas cassetes do Paulo de Carvalho e do Zeca Afonso.
-      Tens alguma ideia?
+    dialogueText: Precisava de encontrar algumas cassetes do Paulo de Carvalho e
+      do Zeca Afonso. Tens alguma ideia por onde procurar?
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -152,12 +138,32 @@ MonoBehaviour:
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+  - guid: f13f09e9-313c-4b98-b919-4e78eb65f8f5
     characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
       type: 3}
-    characterName: Alexandra
-    dialogueText: "Sim, esse tipo de coisa fica no armaz\xE9m aqui na rua de cima.
-      Se partires da Casa da M\xFAsica, \xE9 a \xFAltima casa."
+    characterName: Voz Familiar
+    dialogueText: "Olha s\xF3 quem est\xE1 aqui! O meu grand\xEDssimo amigo Ot\xE1vio!"
+    backgroundSpr: {fileID: 9065089516622626416, guid: 86e81b6d750ee2549818bfda13bab743,
+      type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 90.4
+      y: 157.6
+      width: 499.19998
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: dd882251-36f9-48ea-a7aa-51d30522c5e0
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Ah n\xE3o \xE9 para mim! \xC9 para uma festa do Capit\xE3o Piedade
+      Faria, ele vai trazer uns amigos para a Casa da M\xFAsica."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -166,9 +172,9 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3521.6
+      x: 4052
       y: 232
-      width: 499.19995
+      width: 499.2002
       height: 303.19998
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
@@ -176,7 +182,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Obrigado, Alexandra! At\xE9 \xE0 pr\xF3xima."
+    dialogueText: "Obrigado pela ajuda, Alexandra! Beijinhos e at\xE9 \xE0 pr\xF3xima."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1
@@ -185,9 +191,51 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4079.2
-      y: 154.40001
-      width: 499.19995
+      x: 5447.2
+      y: 186.40001
+      width: 499.1997
       height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f6631ca2-b56c-4d26-9489-d62efdbf958c
+    characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
+      type: 3}
+    characterName: Alexandra
+    dialogueText: "Ai \xE9? Bem, se tu o dizes Ot\xE1vio... Mas pronto, esse tipo
+      de coisa deves encontrar no armaz\xE9m aqui na rua de cima. Se partires da
+      Casa da M\xFAsica, \xE9 a \xFAltima casa na rua."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4721.6
+      y: 186.40001
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+    characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
+      type: 3}
+    characterName: Alexandra
+    dialogueText: "\xD3 Ot\xE1vio e porque \xE9 que est\xE1s \xE0 procura dessas
+      cassetes? N\xE3o estava \xE0 espera que fosses o tipo de pessoa que gostaria
+      de as ouvir..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3515.2
+      y: 232
+      width: 499.19995
+      height: 303.19998
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}

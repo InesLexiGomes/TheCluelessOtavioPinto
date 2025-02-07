@@ -37,7 +37,8 @@ MonoBehaviour:
       type: 3}
     characterName: Rapaz Irritado
     dialogueText: "J\xE1 estou farto desta velharia a ocupar espa\xE7o do caf\xE9.
-      A Madalena t\xE1 pra mandar pro lixo \xE0 anos e nunca o faz."
+      A Madalena est\xE1 para mandar aquilo para o lixo \xE0 anos e nunca o faz.
+      Que mulher!"
     backgroundSpr: {fileID: -6105319182862654781, guid: 6dcad19d2b841ee459fffe9b242380c5,
       type: 3}
     startNode: 1
@@ -57,7 +58,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Olha, com licen\xE7a, do que se trata essa velharia??"
+    dialogueText: "Com licen\xE7a, n\xE3o consegui deixar de ouvir. Do que se trata
+      essa \"velharia\"?"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -76,8 +78,8 @@ MonoBehaviour:
     characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
       type: 3}
     characterName: Rapaz Irritado
-    dialogueText: "Um r\xE1dio cassete. Olha, se estiveres interessado, podes ficar
-      com ele. Quero-me ver livre disso."
+    dialogueText: "Um r\xE1dio cassete. Olha, se me quiseres fazer um favor enorme,
+      podias ficar com ele. J\xE1 n\xE3o o consigo ver \xE0 frente!"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -96,8 +98,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Com certeza, estava justamente \xE0 procura de um! E onde fica
-      o caf\xE9?\r"
+    dialogueText: "Com certeza, estava justamente \xE0 procura de um! Aonde \xE9
+      que o posso ir buscar?\r"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -116,8 +118,8 @@ MonoBehaviour:
     characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
       type: 3}
     characterName: Rapaz Irritado
-    dialogueText: "Fica na esquina da travessa perto da muralha. Se fores pela rua
-      do meio, \xE9 s\xF3 descer a travessa."
+    dialogueText: "T\xE1 num caf\xE9 ali perto da muralha. Se fores pela rua de baixo,
+      fica mais ou menos no meio da rua."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -132,30 +134,11 @@ MonoBehaviour:
       height: 303.19998
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: f30878e5-8a6c-4bda-9f76-99477e35bee1
-    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
-      type: 3}
-    characterName: "Ot\xE1vio Pinto"
-    dialogueText: Muito bem, obrigado...
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2873.6
-      y: 41.6
-      width: 499.19995
-      height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 658f76d6-10ce-49fb-9095-90d897e747f6
     characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
       type: 3}
     characterName: "Tom\xE1s"
-    dialogueText: "Tom\xE1s."
+    dialogueText: "Tom\xE1s. E obrigado eu!"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1
@@ -165,6 +148,25 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 3417.6
+      y: 0.80000114
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f30878e5-8a6c-4bda-9f76-99477e35bee1
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: Muito bem, obrigado?...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2884
       y: 0.80000114
       width: 499.19995
       height: 303.19998

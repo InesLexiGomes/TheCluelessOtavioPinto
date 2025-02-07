@@ -21,7 +21,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: Certo, agora que tenho tudo o que foi pedido.
+    dialogueText: "Pronto, penso que agora tenho tudo o que o Capit\xE3o pedido."
     backgroundSpr: {fileID: -6105319182862654781, guid: 6dcad19d2b841ee459fffe9b242380c5,
       type: 3}
     startNode: 1
@@ -41,7 +41,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Vou levar j\xE1 para a Casa da M\xFAsica e preparar esta par\xF3dia."
+    dialogueText: "Altura de levar tudo de volta para a Casa da M\xFAsica e preparar
+      o que falta!"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1

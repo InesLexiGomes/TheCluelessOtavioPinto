@@ -21,9 +21,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Olha s\xF3, por acaso a Casa da M\xFAsica estava dispon\xEDvel
-      para a par\xF3dia! Aproveitei para contactar logo o Capit\xE3o Piedade Faria.
-      J\xE1 deve estar a caminho tamb\xE9m."
+    dialogueText: "Por acaso a Casa da M\xFAsica est\xE1 dispon\xEDvel! Vou aproveitar
+      para contactar o Capit\xE3o Piedade Faria para ele j\xE1 vir a caminho."
     backgroundSpr: {fileID: 6652101469117272969, guid: 0b8788e1ffa21104eab3539b04e39262,
       type: 3}
     startNode: 1
@@ -43,7 +42,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Vou j\xE1 organizar o espa\xE7o enquanto o espero."
+    dialogueText: "Entretanto vou organizando o espa\xE7o enquanto espero."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1

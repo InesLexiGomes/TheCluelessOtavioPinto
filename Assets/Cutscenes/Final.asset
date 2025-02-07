@@ -22,14 +22,40 @@ MonoBehaviour:
   - guid: 326a4adb-bdfc-4b3f-8d74-c40facd7318e
     targetGuid: 6e30125a-1d31-4682-8458-231228b6f703
     portId: 2
-  - guid: 6e30125a-1d31-4682-8458-231228b6f703
-    targetGuid: 84e5c5f4-e552-44e9-9fda-6fbea7f5d87b
+  - guid: 56375709-75fe-4313-9f5d-41b851531664
+    targetGuid: 5b4f1973-861b-4099-bc94-f58f18502f51
     portId: 3
+  - guid: 6e30125a-1d31-4682-8458-231228b6f703
+    targetGuid: 56375709-75fe-4313-9f5d-41b851531664
+    portId: 4
+  - guid: 5b4f1973-861b-4099-bc94-f58f18502f51
+    targetGuid: f2c4e291-f757-4367-8163-5740b16447b4
+    portId: 5
   nodes:
+  - guid: df6faf05-32ec-459a-a1b0-554e0ea7c42e
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Ep\xE1 parece que que a festa vai fixe! Aquele \xE9 o Capit\xE3o
+      Faria?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 813.6
+      y: 49.6
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
   - guid: 8c7423b6-5ab8-45f2-a25c-0acd31dfe564
     characterSpr: {fileID: 0}
     characterName: 
-    dialogueText: "\xC0 noite..."
+    dialogueText: "Mais tarde, j\xE1 pela noite a dentro..."
     backgroundSpr: {fileID: -1146525703440253779, guid: 6d37f0c1d06b6714ab115a5734c8e316,
       type: 3}
     startNode: 1
@@ -45,11 +71,12 @@ MonoBehaviour:
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: df6faf05-32ec-459a-a1b0-554e0ea7c42e
-    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+  - guid: 6e30125a-1d31-4682-8458-231228b6f703
+    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
       type: 3}
-    characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Oras, mas isto parece-me uma festa bem fixe! *Avista o capit\xE3o*"
+    characterName: "Capit\xE3o Piedade Faria"
+    dialogueText: "Ot\xE1vio! Olha que pena, acabou mesmo agora. Mas correu tudo
+      mesmo bem, a tua ajuda foi revolucion\xE1ria. Est\xE1s de parab\xE9ns!"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -58,8 +85,8 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 813.6
-      y: 49.6
+      x: 2014.4
+      y: 98.4
       width: 499.20007
       height: 303.2
     soundEffect: {fileID: 0}
@@ -68,7 +95,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "\xD3, Capit\xE3o Faria! J\xE1 acabou a par\xF3dia?"
+    dialogueText: "\xD3, Capit\xE3o Faria! Como vai a par\xF3dia?"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -83,11 +110,12 @@ MonoBehaviour:
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 6e30125a-1d31-4682-8458-231228b6f703
-    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
+  - guid: 56375709-75fe-4313-9f5d-41b851531664
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
-    characterName: "Capit\xE3o Piedade Faria"
-    dialogueText: "Sim, j\xE1 acabou, mas foi mesmo bom, correu tudo bem, p\xE1!"
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Obrigado Capit\xE3o, fiz apenas o meu dever. Da pr\xF3xima vez
+      que fizerem outra par\xF3dia tenho de ver se vou."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -96,16 +124,16 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2018.4
+      x: 2591.2
       y: 98.4
-      width: 499.20007
+      width: 499.19995
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 84e5c5f4-e552-44e9-9fda-6fbea7f5d87b
+  - guid: f2c4e291-f757-4367-8163-5740b16447b4
     characterSpr: {fileID: 0}
     characterName: 
-    dialogueText: '*POR O SOM AQUIIIII REMOVER O TEXTOOOO*'
+    dialogueText: '*POR MUSICA A TOCAR*'
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1
@@ -114,8 +142,28 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2663.2
-      y: 77.6
+      x: 3854.4
+      y: 98.4
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5b4f1973-861b-4099-bc94-f58f18502f51
+    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
+      type: 3}
+    characterName: "Capit\xE3o Piedade Faria"
+    dialogueText: "Claro que sim, fica para a pr\xF3xima... Mas olha l\xE1 Ot\xE1vio,
+      s\xF3 antes de ires pra casa dormir, diz-me l\xE1: j\xE1 ouviste esta can\xE7\xE3o?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3192
+      y: 98.4
       width: 499.19995
       height: 303.2
     soundEffect: {fileID: 0}

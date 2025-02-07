@@ -17,15 +17,18 @@ MonoBehaviour:
     targetGuid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
     portId: 0
   - guid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
-    targetGuid: 034a638a-3c23-4cc6-88cb-746a21772891
+    targetGuid: b75a1093-46fb-41c3-9257-952d976cb67e
     portId: 1
+  - guid: b75a1093-46fb-41c3-9257-952d976cb67e
+    targetGuid: 034a638a-3c23-4cc6-88cb-746a21772891
+    portId: 2
   nodes:
   - guid: e37a14f8-69e8-42c8-9e6a-d111110eca75
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Certo, \"ao p\xE9 da porta\" ela disse. Por que raios um caderno
-      de anota\xE7\xF5es estaria ao p\xE9 da porta?"
+    dialogueText: "Certo, ela disse que estava ao p\xE9 da porta... Por que raios
+      \xE9 que um caderno de desenhos estaria ao p\xE9 da porta?"
     backgroundSpr: {fileID: 21300000, guid: 3db0490bb2e85b84795379f63772b6fe, type: 3}
     startNode: 1
     endNode: 0
@@ -44,7 +47,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: " O qu\xEA? Isso t\xE1 mais para debaixo do tapete, literalmente."
+    dialogueText: " Huh? Est\xE1 debaixo do tapete?"
     backgroundSpr: {fileID: 21300000, guid: 3db0490bb2e85b84795379f63772b6fe, type: 3}
     startNode: 0
     endNode: 0
@@ -59,10 +62,29 @@ MonoBehaviour:
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+  - guid: b75a1093-46fb-41c3-9257-952d976cb67e
+    characterSpr: {fileID: 0}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Eia bem que s\xEDmbolos mais esquisitos. Quem desenhou isto deve
+      ser de Artes Visuais. Enfim, mais um item para fora da lista!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1368
+      y: 164.8
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
   - guid: 034a638a-3c23-4cc6-88cb-746a21772891
     characterSpr: {fileID: 0}
     characterName: 
-    dialogueText: "Ot\xE1vio encontra o caderno."
+    dialogueText: "*Ot\xE1vio encontrou o caderno com desenhos estranhos*"
     backgroundSpr: {fileID: 21300000, guid: 8297605f7a9dd02499f1789979ef15bb, type: 3}
     startNode: 0
     endNode: 1
@@ -71,9 +93,9 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1388
-      y: 122.4
-      width: 499.19995
+      x: 1957.6
+      y: 164.8
+      width: 499.20007
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}

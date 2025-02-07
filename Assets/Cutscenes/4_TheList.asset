@@ -66,8 +66,9 @@ MonoBehaviour:
     characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
       type: 3}
     characterName: Cap. Piedade Faria
-    dialogueText: "Este local \xE9 perfeito! Olha, para j\xE1, temos esta lista de
-      itens para a par\xF3dia. Podias arranj\xE1-los?"
+    dialogueText: "Este local \xE9 perfeito! S\xF3 te ia pedir um favor. \xC9 que
+      ainda est\xE3o a faltar alguns items importantes para esta noite... Conseguias
+      arranj\xE1-los?"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -86,7 +87,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Cb. Ot\xE1vio Pinto"
-    dialogueText: "Claro! Fa\xE7o tudo num instantinho."
+    dialogueText: "Claro! Fa\xE7a-me uma lista e eu arranjo tudo num instante!"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1
