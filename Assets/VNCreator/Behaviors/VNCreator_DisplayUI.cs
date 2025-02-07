@@ -62,6 +62,7 @@ namespace VNCreator
                 return;
             }
 
+            soundEffectSource.Stop();
             base.NextNode(_choiceId);
             StartCoroutine(DisplayCurrentNode());
         }

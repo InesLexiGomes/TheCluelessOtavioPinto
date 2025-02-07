@@ -69,26 +69,6 @@ MonoBehaviour:
       height: 303.2
     soundEffect: {fileID: 8300000, guid: 033ccdd922727e941ad497cb82f9e8ee, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 99d6409bee7aaad4d934793d8c810d12, type: 3}
-  - guid: 6e30125a-1d31-4682-8458-231228b6f703
-    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
-      type: 3}
-    characterName: "Capit\xE3o Piedade Faria"
-    dialogueText: "Ot\xE1vio! Olha que pena, acabou mesmo agora. Mas correu tudo
-      mesmo bem, a tua ajuda foi revolucion\xE1ria. Est\xE1s de parab\xE9ns!"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2014.4
-      y: 98.4
-      width: 499.20007
-      height: 303.2
-    soundEffect: {fileID: 8300000, guid: 0b9bb73b4d63b0a49a9fed2c3a49b082, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 27c9000164fb38e43a906eef0ea78ec8, type: 3}
   - guid: 326a4adb-bdfc-4b3f-8d74-c40facd7318e
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
@@ -131,7 +111,7 @@ MonoBehaviour:
   - guid: 587ff4de-e5d1-437c-b59d-4297b30fc5f6
     characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
       type: 3}
-    characterName: "Capit\xE3o Piedade Faria"
+    characterName: Cpt. Piedade Faria
     dialogueText: "Claro que sim, fica para a pr\xF3xima... Mas, olha l\xE1, Ot\xE1vio,
       s\xF3 antes de ires pra casa dormir, diz-me l\xE1: j\xE1 ouviste esta can\xE7\xE3o?"
     backgroundSpr: {fileID: 0}
@@ -145,6 +125,26 @@ MonoBehaviour:
       x: 3191.2
       y: 98.4
       width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 8300000, guid: 0b9bb73b4d63b0a49a9fed2c3a49b082, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 27c9000164fb38e43a906eef0ea78ec8, type: 3}
+  - guid: 6e30125a-1d31-4682-8458-231228b6f703
+    characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
+      type: 3}
+    characterName: Cpt. Piedade Faria
+    dialogueText: "Ot\xE1vio! Olha que pena, acabou mesmo agora. Mas correu tudo
+      mesmo bem, a tua ajuda foi revolucion\xE1ria. Est\xE1s de parab\xE9ns!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2014.4
+      y: 98.4
+      width: 499.20007
       height: 303.2
     soundEffect: {fileID: 8300000, guid: 0b9bb73b4d63b0a49a9fed2c3a49b082, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 27c9000164fb38e43a906eef0ea78ec8, type: 3}

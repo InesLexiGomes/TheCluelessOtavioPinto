@@ -13,24 +13,33 @@ MonoBehaviour:
   m_Name: Credits
   m_EditorClassIdentifier: 
   links:
-  - guid: b703e3a3-9c43-4baa-bf3b-d1af6da78453
-    targetGuid: ed95249b-8692-4f86-a61d-8433ef82257f
-    portId: 0
-  - guid: ed95249b-8692-4f86-a61d-8433ef82257f
-    targetGuid: fbcaa311-8121-4f3a-be3b-4767a50e3900
-    portId: 1
   - guid: fbcaa311-8121-4f3a-be3b-4767a50e3900
     targetGuid: da29d1e7-e681-4559-9c7b-27cedd2a319a
-    portId: 2
+    portId: 0
   - guid: da29d1e7-e681-4559-9c7b-27cedd2a319a
     targetGuid: 83b45c57-1f2d-4e82-b388-ae8bc0254662
-    portId: 3
+    portId: 1
   - guid: 83b45c57-1f2d-4e82-b388-ae8bc0254662
     targetGuid: 21395eff-4bff-452e-a2f1-2e38d28f05e0
-    portId: 4
+    portId: 2
   - guid: 21395eff-4bff-452e-a2f1-2e38d28f05e0
-    targetGuid: 70fa8ab9-e69b-4c8b-8152-3176a876ed8f
+    targetGuid: d52cd09a-efad-4ae6-81c6-b2402ad64f61
+    portId: 3
+  - guid: b703e3a3-9c43-4baa-bf3b-d1af6da78453
+    targetGuid: ed95249b-8692-4f86-a61d-8433ef82257f
+    portId: 4
+  - guid: ed95249b-8692-4f86-a61d-8433ef82257f
+    targetGuid: fbcaa311-8121-4f3a-be3b-4767a50e3900
     portId: 5
+  - guid: d52cd09a-efad-4ae6-81c6-b2402ad64f61
+    targetGuid: 5a382ff8-4332-464d-90ce-352d6403c787
+    portId: 6
+  - guid: 5a382ff8-4332-464d-90ce-352d6403c787
+    targetGuid: 6affb63f-1d56-4fda-a580-defbd372a0e6
+    portId: 7
+  - guid: 6affb63f-1d56-4fda-a580-defbd372a0e6
+    targetGuid: eeeca037-d5f6-4325-b7b9-b022ed2a2b6e
+    portId: 8
   nodes:
   - guid: fbcaa311-8121-4f3a-be3b-4767a50e3900
     characterSpr: {fileID: 0}
@@ -104,43 +113,6 @@ MonoBehaviour:
       height: 303.2
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 70fa8ab9-e69b-4c8b-8152-3176a876ed8f
-    characterSpr: {fileID: 0}
-    characterName: Credits
-    dialogueText: Pedro Gouveia - Programmer
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3852
-      y: 108.799995
-      width: 499.2002
-      height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: ed95249b-8692-4f86-a61d-8433ef82257f
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: FIM.
-    backgroundSpr: {fileID: 2799287058703275364, guid: 05124222cbad37247b098019a2ec21e7,
-      type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1012.8
-      y: 108.799995
-      width: 499.2
-      height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 8300000, guid: 2d05056513be02843948a4a317ab45b2, type: 3}
   - guid: b703e3a3-9c43-4baa-bf3b-d1af6da78453
     characterSpr: {fileID: 0}
     characterName: 
@@ -159,4 +131,95 @@ MonoBehaviour:
       width: 499.2
       height: 303.2
     soundEffect: {fileID: 8300000, guid: 57aeaf72a1490eb4f81227fb4006d616, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: ed95249b-8692-4f86-a61d-8433ef82257f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: FIM.
+    backgroundSpr: {fileID: 2799287058703275364, guid: 05124222cbad37247b098019a2ec21e7,
+      type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1005.6
+      y: 71.2
+      width: 499.20007
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 7843648012ecd1d44956f671f0309b82, type: 3}
+  - guid: d52cd09a-efad-4ae6-81c6-b2402ad64f61
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: Pedro Gouveia - Programmer
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3828
+      y: 153.6
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5a382ff8-4332-464d-90ce-352d6403c787
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: "Tiago Louren\xE7o - Sound Designer"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4435.2
+      y: 153.6
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6affb63f-1d56-4fda-a580-defbd372a0e6
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: Rambear - VNCreator
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5035.2
+      y: 153.6
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: eeeca037-d5f6-4325-b7b9-b022ed2a2b6e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Obrigado por jogar!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5611.2
+      y: 153.6
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}

@@ -1,6 +1,5 @@
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem.Android.LowLevel;
 
 public class PickupController : MonoBehaviour
 {
