@@ -57,7 +57,7 @@ public class NpcBehaviour : MonoBehaviour
 
             if (Physics2D.OverlapCircle(transform.position, talkRadius, layerMask, -10000, 10000) != null)
             {
-
+                animator.ResetTrigger("Down");
                 cutscene.SetActive(true);
                 isWalking = false;
                 gameObject.transform.position = startPosition;
