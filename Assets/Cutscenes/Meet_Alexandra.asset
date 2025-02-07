@@ -13,29 +13,29 @@ MonoBehaviour:
   m_Name: Meet_Alexandra
   m_EditorClassIdentifier: 
   links:
-  - guid: f13f09e9-313c-4b98-b919-4e78eb65f8f5
-    targetGuid: 18f6fb1f-c19a-4cfd-afc5-b181246877f8
-    portId: 0
   - guid: 18f6fb1f-c19a-4cfd-afc5-b181246877f8
     targetGuid: da63c3ae-ba1d-4e4b-8b60-cbafdda2f558
-    portId: 1
+    portId: 0
   - guid: da63c3ae-ba1d-4e4b-8b60-cbafdda2f558
     targetGuid: d5a8cb65-5d50-4b72-99f9-56896bae93a6
-    portId: 2
+    portId: 1
   - guid: d5a8cb65-5d50-4b72-99f9-56896bae93a6
     targetGuid: af4fe327-c6c5-47c2-b278-32cda2153ce2
-    portId: 3
+    portId: 2
   - guid: af4fe327-c6c5-47c2-b278-32cda2153ce2
     targetGuid: 8aadc5b0-3bc7-4068-9070-3d46276b9cd6
-    portId: 4
+    portId: 3
   - guid: 8aadc5b0-3bc7-4068-9070-3d46276b9cd6
     targetGuid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
+    portId: 4
+  - guid: f13f09e9-313c-4b98-b919-4e78eb65f8f5
+    targetGuid: 18f6fb1f-c19a-4cfd-afc5-b181246877f8
     portId: 5
-  - guid: f6631ca2-b56c-4d26-9489-d62efdbf958c
-    targetGuid: d3230c47-77ed-4206-a06e-fa84af52a338
-    portId: 6
   - guid: dd882251-36f9-48ea-a7aa-51d30522c5e0
     targetGuid: f6631ca2-b56c-4d26-9489-d62efdbf958c
+    portId: 6
+  - guid: f6631ca2-b56c-4d26-9489-d62efdbf958c
+    targetGuid: d3230c47-77ed-4206-a06e-fa84af52a338
     portId: 7
   - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
     targetGuid: dd882251-36f9-48ea-a7aa-51d30522c5e0
@@ -58,7 +58,7 @@ MonoBehaviour:
       y: 157.6
       width: 499.2
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: da63c3ae-ba1d-4e4b-8b60-cbafdda2f558
     characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
@@ -77,7 +77,7 @@ MonoBehaviour:
       y: 73.6
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 7be34b77524ac15408281019b09fda3b, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: d5a8cb65-5d50-4b72-99f9-56896bae93a6
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -97,7 +97,7 @@ MonoBehaviour:
       y: 157.6
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: af4fe327-c6c5-47c2-b278-32cda2153ce2
     characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
@@ -116,7 +116,7 @@ MonoBehaviour:
       y: 204.8
       width: 499.19995
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 7be34b77524ac15408281019b09fda3b, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 8aadc5b0-3bc7-4068-9070-3d46276b9cd6
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -136,7 +136,7 @@ MonoBehaviour:
       y: 141.6
       width: 499.2002
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: f13f09e9-313c-4b98-b919-4e78eb65f8f5
     characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
@@ -156,8 +156,8 @@ MonoBehaviour:
       y: 157.6
       width: 499.19998
       height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 7be34b77524ac15408281019b09fda3b, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 27c9000164fb38e43a906eef0ea78ec8, type: 3}
   - guid: dd882251-36f9-48ea-a7aa-51d30522c5e0
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
@@ -176,7 +176,7 @@ MonoBehaviour:
       y: 232
       width: 499.2002
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: d3230c47-77ed-4206-a06e-fa84af52a338
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -195,7 +195,7 @@ MonoBehaviour:
       y: 186.40001
       width: 499.1997
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: f6631ca2-b56c-4d26-9489-d62efdbf958c
     characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
@@ -216,7 +216,7 @@ MonoBehaviour:
       y: 186.40001
       width: 499.1997
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 7be34b77524ac15408281019b09fda3b, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 8ce51b59-6e2b-4aea-ad9f-ef9ce781e240
     characterSpr: {fileID: 922921946890219066, guid: bd7c19ded7db2874a9aac5ee11e5bdd5,
@@ -233,9 +233,9 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3515.2
+      x: 3516.8
       y: 232
       width: 499.19995
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 7be34b77524ac15408281019b09fda3b, type: 3}
     backgroundMusic: {fileID: 0}

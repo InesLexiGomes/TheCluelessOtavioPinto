@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Credits
+  m_EditorClassIdentifier: 
+  links:
+  - guid: b703e3a3-9c43-4baa-bf3b-d1af6da78453
+    targetGuid: ed95249b-8692-4f86-a61d-8433ef82257f
+    portId: 0
+  - guid: ed95249b-8692-4f86-a61d-8433ef82257f
+    targetGuid: fbcaa311-8121-4f3a-be3b-4767a50e3900
+    portId: 1
+  - guid: fbcaa311-8121-4f3a-be3b-4767a50e3900
+    targetGuid: da29d1e7-e681-4559-9c7b-27cedd2a319a
+    portId: 2
+  - guid: da29d1e7-e681-4559-9c7b-27cedd2a319a
+    targetGuid: 83b45c57-1f2d-4e82-b388-ae8bc0254662
+    portId: 3
+  - guid: 83b45c57-1f2d-4e82-b388-ae8bc0254662
+    targetGuid: 21395eff-4bff-452e-a2f1-2e38d28f05e0
+    portId: 4
+  - guid: 21395eff-4bff-452e-a2f1-2e38d28f05e0
+    targetGuid: 70fa8ab9-e69b-4c8b-8152-3176a876ed8f
+    portId: 5
+  nodes:
+  - guid: fbcaa311-8121-4f3a-be3b-4767a50e3900
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: Ana Laura Ferreira - Artist
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1606.4
+      y: 71.2
+      width: 499.20007
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: da29d1e7-e681-4559-9c7b-27cedd2a319a
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: "In\xEAs Gomes - Programmer"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2154.4
+      y: 71.2
+      width: 499.2002
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 83b45c57-1f2d-4e82-b388-ae8bc0254662
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: Madalena Farinha - Artist
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2707.2
+      y: 71.2
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 21395eff-4bff-452e-a2f1-2e38d28f05e0
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: Paula Martins - Designer
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3270.4
+      y: 153.6
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 70fa8ab9-e69b-4c8b-8152-3176a876ed8f
+    characterSpr: {fileID: 0}
+    characterName: Credits
+    dialogueText: Pedro Gouveia - Programmer
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3852
+      y: 108.799995
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ed95249b-8692-4f86-a61d-8433ef82257f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: FIM.
+    backgroundSpr: {fileID: 2799287058703275364, guid: 05124222cbad37247b098019a2ec21e7,
+      type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1012.8
+      y: 108.799995
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 2d05056513be02843948a4a317ab45b2, type: 3}
+  - guid: b703e3a3-9c43-4baa-bf3b-d1af6da78453
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: -1146525703440253779, guid: 6d37f0c1d06b6714ab115a5734c8e316,
+      type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 419.2
+      y: 50.4
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 8300000, guid: 57aeaf72a1490eb4f81227fb4006d616, type: 3}
+    backgroundMusic: {fileID: 0}

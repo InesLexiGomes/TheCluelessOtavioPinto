@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: House
   m_EditorClassIdentifier: 
   links:
-  - guid: e37a14f8-69e8-42c8-9e6a-d111110eca75
-    targetGuid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
+  - guid: b75a1093-46fb-41c3-9257-952d976cb67e
+    targetGuid: 034a638a-3c23-4cc6-88cb-746a21772891
     portId: 0
   - guid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
     targetGuid: b75a1093-46fb-41c3-9257-952d976cb67e
     portId: 1
-  - guid: b75a1093-46fb-41c3-9257-952d976cb67e
-    targetGuid: 034a638a-3c23-4cc6-88cb-746a21772891
+  - guid: e37a14f8-69e8-42c8-9e6a-d111110eca75
+    targetGuid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
     portId: 2
   nodes:
   - guid: b75a1093-46fb-41c3-9257-952d976cb67e
@@ -41,7 +41,7 @@ MonoBehaviour:
       y: 164.8
       width: 499.19995
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 034a638a-3c23-4cc6-88cb-746a21772891
     characterSpr: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
       y: 164.8
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: d2103938a51fc4d4f84c8d129fc14508, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 291c156f-a9ac-4bf8-b8cf-dc00988a48a7
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -78,7 +78,7 @@ MonoBehaviour:
       y: 164.8
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: e37a14f8-69e8-42c8-9e6a-d111110eca75
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -98,5 +98,5 @@ MonoBehaviour:
       y: 110.4
       width: 499.19998
       height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 27c9000164fb38e43a906eef0ea78ec8, type: 3}

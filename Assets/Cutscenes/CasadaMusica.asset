@@ -44,8 +44,8 @@ MonoBehaviour:
       y: 88
       width: 499.2
       height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 27c9000164fb38e43a906eef0ea78ec8, type: 3}
   - guid: 8d34f46e-2737-4dce-b66f-ddd01cb1c959
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
@@ -63,7 +63,7 @@ MonoBehaviour:
       y: 110.4
       width: 499.2
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: ecba3683-7f03-435c-9a4e-9d8636f47842
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -83,7 +83,7 @@ MonoBehaviour:
       y: 126.4
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 6e8bea25-d74d-4611-b90c-445f975bcfbb
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -102,7 +102,7 @@ MonoBehaviour:
       y: 103.99999
       width: 499.19995
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 55989c9b-d00d-4f4e-a287-41e224ba1b28
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -122,5 +122,5 @@ MonoBehaviour:
       y: 151.20001
       width: 499.19995
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}

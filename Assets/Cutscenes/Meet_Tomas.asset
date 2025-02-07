@@ -52,28 +52,8 @@ MonoBehaviour:
       y: 90.4
       width: 499.2
       height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 7b2dbfba-ab41-42f3-8389-dd693735723a
-    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
-      type: 3}
-    characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Com licen\xE7a, n\xE3o consegui deixar de ouvir. Do que se trata
-      essa \"velharia\"?"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 680.8
-      y: 139.20001
-      width: 499.2
-      height: 303.19998
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e1ba6142e15f9c24bb4867546fd8f7b5, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 99d6409bee7aaad4d934793d8c810d12, type: 3}
   - guid: 985bff0d-6229-4746-bb96-76e5d591c849
     characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
       type: 3}
@@ -92,7 +72,7 @@ MonoBehaviour:
       y: 88
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e1ba6142e15f9c24bb4867546fd8f7b5, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 312a1ac7-c2ac-4267-bf48-5d6a0b4150d7
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -112,7 +92,7 @@ MonoBehaviour:
       y: 51.199997
       width: 499.20007
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: d0ed3d74-2ed6-4594-ab80-c42b2c720d85
     characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
@@ -132,7 +112,7 @@ MonoBehaviour:
       y: 0.80000114
       width: 499.19995
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e1ba6142e15f9c24bb4867546fd8f7b5, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 658f76d6-10ce-49fb-9095-90d897e747f6
     characterSpr: {fileID: -7228189240083097302, guid: b3ce4d6b4d928a145b424f26660e2c8c,
@@ -151,7 +131,7 @@ MonoBehaviour:
       y: 0.80000114
       width: 499.19995
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e1ba6142e15f9c24bb4867546fd8f7b5, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: f30878e5-8a6c-4bda-9f76-99477e35bee1
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -170,5 +150,25 @@ MonoBehaviour:
       y: 0.80000114
       width: 499.19995
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 7b2dbfba-ab41-42f3-8389-dd693735723a
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Com licen\xE7a, n\xE3o consegui deixar de ouvir. Do que se trata
+      essa \"velharia\"?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 680.8
+      y: 139.20001
+      width: 499.2
+      height: 303.19998
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}

@@ -35,8 +35,8 @@ MonoBehaviour:
       y: 32.800003
       width: 499.2
       height: 303.19998
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 033ccdd922727e941ad497cb82f9e8ee, type: 3}
   - guid: c011349c-4225-4091-ac7b-67e417407e55
     characterSpr: {fileID: 0}
     characterName: 
@@ -53,5 +53,5 @@ MonoBehaviour:
       y: 54.4
       width: 499.19995
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 38094dbefa399b743bc410f72fd9713c, type: 3}
     backgroundMusic: {fileID: 0}

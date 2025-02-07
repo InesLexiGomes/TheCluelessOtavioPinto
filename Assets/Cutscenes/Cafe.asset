@@ -43,8 +43,8 @@ MonoBehaviour:
       y: 14.4
       width: 499.2
       height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 5a5bd2bd4f740b44f8406b552bd98168, type: 3}
   - guid: 498d7de0-85c4-4f5b-9cd4-2697c990e996
     characterSpr: {fileID: 8425973999580040789, guid: 688e0170979933b49a8abd1a129e7b9d,
       type: 3}
@@ -62,8 +62,8 @@ MonoBehaviour:
       y: 47.199997
       width: 499.19995
       height: 303.19998
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: bf49b70a5cbc05643a41c771045d5a90, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 99d6409bee7aaad4d934793d8c810d12, type: 3}
   - guid: 0c1583c9-4955-4745-814f-cc1a9a2861aa
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
@@ -81,7 +81,7 @@ MonoBehaviour:
       y: -30.4
       width: 499.19995
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: a9d91d36-6694-4766-820c-14b43742ea45
     characterSpr: {fileID: 8425973999580040789, guid: 688e0170979933b49a8abd1a129e7b9d,
@@ -101,7 +101,7 @@ MonoBehaviour:
       y: 4.800001
       width: 499.19995
       height: 303.19998
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: bf49b70a5cbc05643a41c771045d5a90, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 3ce6e2d5-ebde-4d5b-be2a-9ff0e4c6613e
     characterSpr: {fileID: 0}
@@ -115,9 +115,9 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2422.4
-      y: -8
-      width: 499.2002
-      height: 303.2
-    soundEffect: {fileID: 0}
+      x: 2423.2
+      y: -8.799999
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 8300000, guid: ce1c6d984e235fe4287e6e5d81fc393e, type: 3}
     backgroundMusic: {fileID: 0}

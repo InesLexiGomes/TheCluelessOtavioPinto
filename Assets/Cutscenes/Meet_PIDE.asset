@@ -19,11 +19,11 @@ MonoBehaviour:
   - guid: a6bad11f-8995-4f71-ba7f-32d577eb4efd
     targetGuid: c0fb8a53-ae32-4b59-bda3-0213ce29576e
     portId: 1
-  - guid: c0fb8a53-ae32-4b59-bda3-0213ce29576e
-    targetGuid: 26c95840-c061-4cbb-96a8-9f45b1e7fd07
-    portId: 2
   - guid: 26c95840-c061-4cbb-96a8-9f45b1e7fd07
     targetGuid: 8ab5f35d-52cf-4c40-9dce-9d11bfc4afb7
+    portId: 2
+  - guid: c0fb8a53-ae32-4b59-bda3-0213ce29576e
+    targetGuid: 26c95840-c061-4cbb-96a8-9f45b1e7fd07
     portId: 3
   nodes:
   - guid: 160fe1c4-2155-42ee-a97e-2b74783cafd3
@@ -44,8 +44,8 @@ MonoBehaviour:
       y: 95.2
       width: 499.19998
       height: 303.19998
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e1ba6142e15f9c24bb4867546fd8f7b5, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 27c9000164fb38e43a906eef0ea78ec8, type: 3}
   - guid: a6bad11f-8995-4f71-ba7f-32d577eb4efd
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
@@ -63,7 +63,7 @@ MonoBehaviour:
       y: 117.6
       width: 499.2
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 26c95840-c061-4cbb-96a8-9f45b1e7fd07
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
@@ -82,7 +82,7 @@ MonoBehaviour:
       y: 170.40001
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 002e7e39a19a2f54282c0a1dffd47a5e, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: c0fb8a53-ae32-4b59-bda3-0213ce29576e
     characterSpr: {fileID: -2055504822020580334, guid: 8b2562ef882c29e48a3c394f20644512,
@@ -101,7 +101,7 @@ MonoBehaviour:
       y: 116.799995
       width: 499.20007
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e1ba6142e15f9c24bb4867546fd8f7b5, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 8ab5f35d-52cf-4c40-9dce-9d11bfc4afb7
     characterSpr: {fileID: -2055504822020580334, guid: 8b2562ef882c29e48a3c394f20644512,
@@ -120,5 +120,5 @@ MonoBehaviour:
       y: 116.799995
       width: 499.19995
       height: 303.2
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e1ba6142e15f9c24bb4867546fd8f7b5, type: 3}
     backgroundMusic: {fileID: 0}

@@ -16,11 +16,11 @@ MonoBehaviour:
   - guid: b2780d84-12ce-4ff8-8bed-eb7efd2733ed
     targetGuid: 9b2f55d8-5e1b-4a56-ba7c-8796553e0b7e
     portId: 0
-  - guid: 9b2f55d8-5e1b-4a56-ba7c-8796553e0b7e
-    targetGuid: 8ca05d8a-e468-45fd-987f-6d25a5dd2d1c
-    portId: 1
   - guid: 8ca05d8a-e468-45fd-987f-6d25a5dd2d1c
     targetGuid: 6b14a906-182e-4e85-8f8c-09cccdc390d2
+    portId: 1
+  - guid: 9b2f55d8-5e1b-4a56-ba7c-8796553e0b7e
+    targetGuid: 8ca05d8a-e468-45fd-987f-6d25a5dd2d1c
     portId: 2
   nodes:
   - guid: 6b14a906-182e-4e85-8f8c-09cccdc390d2
