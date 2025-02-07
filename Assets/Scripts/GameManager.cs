@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject itemList;
     [SerializeField] private GameObject finale;
+    [SerializeField] private GameObject allItemsCutscene;
 
     private int itemsLeft;
 
@@ -38,8 +39,16 @@ public class GameManager : MonoBehaviour
         }
 
         if (itemsLeft == 0) {
-            //itemList.SetActive(false);
+            //allItemsCutscene.SetActive(true);
             finale.SetActive(true);
         }
+    }
+
+    public int getItemsLeft() {
+        return itemsLeft;
+    }
+
+    public void displayAllItemsCutscene() {
+        allItemsCutscene.SetActive(true);
     }
 }

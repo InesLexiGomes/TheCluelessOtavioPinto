@@ -82,8 +82,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 12
+  m_Offset: {x: 0, y: -12.5}
+  m_Radius: 15.2
 --- !u!212 &3151462743088099856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -127,13 +127,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 1142706430, guid: c947062488e3ea048bd6728dc21b2cd5, type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: baceba871cebcab48b271f232448bd0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 16, y: 16}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
