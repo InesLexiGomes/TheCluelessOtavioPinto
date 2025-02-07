@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alexandra transparent_0: -4942934734122403403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
