@@ -22,7 +22,8 @@ MonoBehaviour:
       type: 3}
     characterName: "Ot\xE1vio Pinto"
     dialogueText: Certo, agora que tenho tudo o que foi pedido.
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: -6105319182862654781, guid: 6dcad19d2b841ee459fffe9b242380c5,
+      type: 3}
     startNode: 1
     endNode: 0
     choices: 1

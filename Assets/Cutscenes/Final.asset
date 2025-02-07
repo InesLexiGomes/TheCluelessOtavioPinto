@@ -30,7 +30,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: 
     dialogueText: "\xC0 noite..."
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: -1146525703440253779, guid: 6d37f0c1d06b6714ab115a5734c8e316,
+      type: 3}
     startNode: 1
     endNode: 0
     choices: 1
