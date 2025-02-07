@@ -41,8 +41,7 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Altura de levar tudo de volta para a Casa da M\xFAsica e preparar
-      o que falta!"
+    dialogueText: "Altura de voltar para a Casa da M\xFAsica e preparar o que falta!"
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1
