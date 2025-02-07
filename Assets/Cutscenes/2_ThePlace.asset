@@ -24,7 +24,7 @@ MonoBehaviour:
     dialogueText: "Ah, pronto. N\xE3o consegui marcar a par\xF3dia nem na Usseira
       nem em A-da-Gorda. L\xE1 se v\xE3o as salas mais modernas. S\xF3 me resta tentar
       em \xD3bidos mesmo."
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: f195678f28acf884fbdc1c263044162d, type: 3}
     startNode: 1
     endNode: 0
     choices: 1

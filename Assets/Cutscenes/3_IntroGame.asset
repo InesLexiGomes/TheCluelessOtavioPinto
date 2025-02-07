@@ -24,7 +24,8 @@ MonoBehaviour:
     dialogueText: "Olha s\xF3, por acaso a Casa da M\xFAsica estava dispon\xEDvel
       para a par\xF3dia! Aproveitei para contactar logo o Capit\xE3o Piedade Faria.
       J\xE1 deve estar a caminho tamb\xE9m."
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 6652101469117272969, guid: 0b8788e1ffa21104eab3539b04e39262,
+      type: 3}
     startNode: 1
     endNode: 0
     choices: 1

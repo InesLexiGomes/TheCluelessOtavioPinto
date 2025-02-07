@@ -28,7 +28,8 @@ MonoBehaviour:
       type: 3}
     characterName: Cap. Piedade Faria
     dialogueText: "Cabo Pinto, est\xE1 ai?"
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 6652101469117272969, guid: 0b8788e1ffa21104eab3539b04e39262,
+      type: 3}
     startNode: 1
     endNode: 0
     choices: 1

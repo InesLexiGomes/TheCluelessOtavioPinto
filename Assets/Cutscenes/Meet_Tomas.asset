@@ -38,7 +38,8 @@ MonoBehaviour:
     characterName: Rapaz Irritado
     dialogueText: "J\xE1 estou farto desta velharia a ocupar espa\xE7o do caf\xE9.
       A Madalena t\xE1 pra mandar pro lixo \xE0 anos e nunca o faz."
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: -6105319182862654781, guid: 6dcad19d2b841ee459fffe9b242380c5,
+      type: 3}
     startNode: 1
     endNode: 0
     choices: 1

@@ -40,7 +40,8 @@ MonoBehaviour:
       type: 3}
     characterName: Voz Familiar
     dialogueText: "Ah, olhe s\xF3 quem est\xE1 aqui! Meu grande amigo, Ot\xE1vio!"
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 9065089516622626416, guid: 86e81b6d750ee2549818bfda13bab743,
+      type: 3}
     startNode: 1
     endNode: 0
     choices: 1
