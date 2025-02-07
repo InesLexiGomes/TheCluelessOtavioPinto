@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Meet_PIDE
+  m_EditorClassIdentifier: 
+  links:
+  - guid: 160fe1c4-2155-42ee-a97e-2b74783cafd3
+    targetGuid: a6bad11f-8995-4f71-ba7f-32d577eb4efd
+    portId: 0
+  - guid: a6bad11f-8995-4f71-ba7f-32d577eb4efd
+    targetGuid: c0fb8a53-ae32-4b59-bda3-0213ce29576e
+    portId: 1
+  - guid: c0fb8a53-ae32-4b59-bda3-0213ce29576e
+    targetGuid: 26c95840-c061-4cbb-96a8-9f45b1e7fd07
+    portId: 2
+  - guid: 26c95840-c061-4cbb-96a8-9f45b1e7fd07
+    targetGuid: 8ab5f35d-52cf-4c40-9dce-9d11bfc4afb7
+    portId: 3
+  nodes:
+  - guid: 160fe1c4-2155-42ee-a97e-2b74783cafd3
+    characterSpr: {fileID: -2055504822020580334, guid: 8b2562ef882c29e48a3c394f20644512,
+      type: 3}
+    characterName: PIDE
+    dialogueText: "T\xFA a\xED, o que andas a fazer com essas coisas?"
+    backgroundSpr: {fileID: -6105319182862654781, guid: 6dcad19d2b841ee459fffe9b242380c5,
+      type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 213.6
+      y: 95.2
+      width: 499.19998
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a6bad11f-8995-4f71-ba7f-32d577eb4efd
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: "Ah, s\xE3o para uma par\xF3dia."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 799.2
+      y: 117.6
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 26c95840-c061-4cbb-96a8-9f45b1e7fd07
+    characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
+      type: 3}
+    characterName: "Ot\xE1vio Pinto"
+    dialogueText: Para celebrar um Magusto. Pediram-me apenas isso.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1926.4
+      y: 170.40001
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c0fb8a53-ae32-4b59-bda3-0213ce29576e
+    characterSpr: {fileID: -2055504822020580334, guid: 8b2562ef882c29e48a3c394f20644512,
+      type: 3}
+    characterName: PIDE
+    dialogueText: "Uma par\xF3dia? Para quem?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1347.2
+      y: 116.799995
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ab5f35d-52cf-4c40-9dce-9d11bfc4afb7
+    characterSpr: {fileID: -2055504822020580334, guid: 8b2562ef882c29e48a3c394f20644512,
+      type: 3}
+    characterName: PIDE
+    dialogueText: "Hm, parece-me bem. Um bom dia, ent\xE3o."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2484.8
+      y: 116.799995
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: Final
   m_EditorClassIdentifier: 
   links:
-  - guid: 8c7423b6-5ab8-45f2-a25c-0acd31dfe564
-    targetGuid: df6faf05-32ec-459a-a1b0-554e0ea7c42e
-    portId: 0
   - guid: df6faf05-32ec-459a-a1b0-554e0ea7c42e
     targetGuid: 326a4adb-bdfc-4b3f-8d74-c40facd7318e
+    portId: 0
+  - guid: 8c7423b6-5ab8-45f2-a25c-0acd31dfe564
+    targetGuid: df6faf05-32ec-459a-a1b0-554e0ea7c42e
     portId: 1
-  - guid: 326a4adb-bdfc-4b3f-8d74-c40facd7318e
-    targetGuid: 6e30125a-1d31-4682-8458-231228b6f703
-    portId: 2
-  - guid: 56375709-75fe-4313-9f5d-41b851531664
-    targetGuid: 5b4f1973-861b-4099-bc94-f58f18502f51
-    portId: 3
   - guid: 6e30125a-1d31-4682-8458-231228b6f703
     targetGuid: 56375709-75fe-4313-9f5d-41b851531664
+    portId: 2
+  - guid: 326a4adb-bdfc-4b3f-8d74-c40facd7318e
+    targetGuid: 6e30125a-1d31-4682-8458-231228b6f703
+    portId: 3
+  - guid: 56375709-75fe-4313-9f5d-41b851531664
+    targetGuid: 5b4f1973-861b-4099-bc94-f58f18502f51
     portId: 4
   - guid: 5b4f1973-861b-4099-bc94-f58f18502f51
     targetGuid: f2c4e291-f757-4367-8163-5740b16447b4
@@ -38,7 +38,8 @@ MonoBehaviour:
     characterName: "Ot\xE1vio Pinto"
     dialogueText: "Ep\xE1 parece que que a festa vai fixe! Aquele \xE9 o Capit\xE3o
       Faria?"
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: -904893699419314718, guid: 15fbd8020468aee478e18176e116e39e,
+      type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -114,8 +115,8 @@ MonoBehaviour:
     characterSpr: {fileID: 1984696061264066721, guid: 0e14a4b2fbef0464d8bc416905d937a2,
       type: 3}
     characterName: "Ot\xE1vio Pinto"
-    dialogueText: "Obrigado Capit\xE3o, fiz apenas o meu dever. Da pr\xF3xima vez
-      que fizerem outra par\xF3dia tenho de ver se vou."
+    dialogueText: "Obrigado, Capit\xE3o, fiz apenas o meu dever. Da pr\xF3xima vez
+      que fizerem outra par\xF3dia, tenho de ver se vou."
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -134,7 +135,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: 
     dialogueText: '*POR MUSICA A TOCAR*'
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 2799287058703275364, guid: 05124222cbad37247b098019a2ec21e7,
+      type: 3}
     startNode: 0
     endNode: 1
     choices: 1
@@ -152,7 +154,7 @@ MonoBehaviour:
     characterSpr: {fileID: 8852434882067235801, guid: dc9e2cb23fc50814f87fa1835ee6f031,
       type: 3}
     characterName: "Capit\xE3o Piedade Faria"
-    dialogueText: "Claro que sim, fica para a pr\xF3xima... Mas olha l\xE1 Ot\xE1vio,
+    dialogueText: "Claro que sim, fica para a pr\xF3xima... Mas, olha l\xE1, Ot\xE1vio,
       s\xF3 antes de ires pra casa dormir, diz-me l\xE1: j\xE1 ouviste esta can\xE7\xE3o?"
     backgroundSpr: {fileID: 0}
     startNode: 0
