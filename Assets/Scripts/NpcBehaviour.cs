@@ -11,6 +11,8 @@ public class NpcBehaviour : MonoBehaviour
     [SerializeField] private GameObject cutscene;
     [SerializeField] private BoxCollider2D trigger;
 
+    private Animator animator;
+
     private GameObject target;
     private bool isWalking = false;
 
@@ -19,6 +21,7 @@ public class NpcBehaviour : MonoBehaviour
 
     private void Awake() {
         cutscene.SetActive(false);
+        animator = GetComponent<Animator>();
     }
     private void Start()
     {
@@ -48,6 +51,8 @@ public class NpcBehaviour : MonoBehaviour
     {
         if (isWalking && target != null)
         {
+            
+            animator.SetTrigger("Down");
             rb.linearVelocity = moveDir.normalized * moveSpeed;
 
             if (Physics2D.OverlapCircle(transform.position, talkRadius, layerMask, -10000, 10000) != null)
